@@ -15,8 +15,15 @@ class BlogTests(SimpleTestCase):
         self.assertTemplateUsed(response, 'base.html')
         self.assertTemplateUsed(response, f'{url_name}.html')
 
-    def test_home_page_status(self):
+    def test_home_page_status_pass(self):
         self.helper_page_status_200('home')
+
+    # def test_home_page_status_fail(self):
+    #     url = reverse('homm')
+    #     response = self.client.get(url)
+    #     print("Bad response= ", response)
+    #     self.assertEqual(response.status_code, 404)
+        # self.helper_page_status_200('homm')
 
     def test_home_page_template(self):
         self.helper_page_template_check('home')

@@ -6,3 +6,7 @@ class HomePageView(TemplateView):
     template_name = 'home.html'
 
 
+class CheckPageView(TemplateView):
+    template_name = 'check.html'
+
+

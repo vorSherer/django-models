@@ -28,11 +28,11 @@
 	- [ ] associate __`Post`__ model <br>
 
 - [X] create __`home.html`__ template
-	- [ ] use __`Django Templating Language`__ to display each post's title <br>
+	- [X] use __`Django Templating Language`__ to display each post's title <br>
 
-- [ ] create __`base.html`__ ancestor template
-	- [ ] add main html document
-	- [ ] use __`Django Templating Language`__ to allow child templates to insert content <br>
+- [X] create __`base.html`__ ancestor template
+	- [X] add main html document
+	- [X] use __`Django Templating Language`__ to allow child templates to insert content <br>
 
 - [ ] update __url patterns__ for app and project
 - [ ] view home page and confirm posts showing properly

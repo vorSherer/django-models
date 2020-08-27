@@ -50,9 +50,9 @@
 - [ ] add link in home page template to related post detail page <br>
 
 ## Implementation Notes
-- [ ] The instructions are becoming more conceptual.
-- [ ] All the concepts listed relate to key Django steps covered in the demo.
-- [ ] If there is confusion about what, exactly, is required then ask the client (aka the instructors.)
+- The instructions are becoming more conceptual.
+- All the concepts listed relate to key Django steps covered in the demo.
+- If there is confusion about what, exactly, is required then ask the client *(aka the instructors.)*
 - __TLDR__ - make your lab project like the demo project. <br>
 
 ---

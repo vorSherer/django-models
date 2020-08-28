@@ -36,16 +36,16 @@
 
 - [X] update __url patterns__ for app and project
 - [X] view home page and confirm posts showing properly
-- [ ] add __detail__ view
-	- [ ] link __`post_detail.html`__ template
-	- [ ] associate __`Post`__ model <br>
+- [X] add __detail__ view
+	- [X] link __`post_detail.html`__ template
+	- [X] associate __`Post`__ model <br>
 
-- [ ] create __`post_detail.html`__ template
-	- [ ] template should extend __base__
-	- [ ] content should display post title and body <br>
+- [X] create __`post_detail.html`__ template
+	- [X] template should extend __base__
+	- [X] content should display post title and body <br>
 
-- [ ] update app __urlpatterns__ to handle detail view
-	- [ ] account for primary key in url <br>
+- [X] update app __urlpatterns__ to handle detail view
+	- [X] account for primary key in url <br>
 
 - [ ] add link in home page template to related post detail page <br>
 

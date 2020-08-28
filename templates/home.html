@@ -6,4 +6,11 @@
 
 {% block mainh1 %}
     <h1>This is my Blog Project Home Page.</h1>
+
+    <h2>List of recent posts</h2>
+        <ul>
+        {% for post in object_list %}
+            <li>{{post.title}}</li>
+        {% endfor %}
+        </ul>
 {% endblock mainh1 %}

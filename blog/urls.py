@@ -1,5 +1,8 @@
 from django.urls import path
-from .views import HomePageView, CheckPageView
+from .views import (
+    HomePageView,
+    CheckPageView,
+)
 
 
 urlpatterns = [

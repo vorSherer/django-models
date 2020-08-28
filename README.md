@@ -9,23 +9,23 @@
 - [X] create __`blog_project`__ project
 - [X] create __`blog`__ app
 - [X] migrate data
-- [ ] create __`Post`__ model
-	- [ ] add __`title`__ as a __CharField__ with maximum length of 64 characters.
-	- [ ] add __`author`__ __ForeignKey__ related to Django's built in user model with __CASCADE__ delete option.
-	- [ ] add __`body` TextField__ <br>
+- [X] create __`Post`__ model
+	- [X] add __`title`__ as a __CharField__ with maximum length of 64 characters.
+	- [X] add __`author`__ __ForeignKey__ related to Django's built in user model with __CASCADE__ delete option.
+	- [X] add __`body` TextField__ <br>
 
-- [ ] add model to admin
-- [ ] modify __`Post`__ model have user friendly display in admin
-- [ ] create migrations and migrate data
-- [ ] create a superuser
-- [ ] Add a few posts via __Admin__ panel
-- [ ] Add __`templates`__ folder in root of project
-	- [ ] register __`templates`__ folder in project settings <br>
+- [X] add model to admin
+- [ ] modify __`Post`__ model have user-friendly display in admin
+- [X] create migrations and migrate data
+- [X] create a superuser
+- [X] Add a few posts via __Admin__ panel
+- [X] Add __`templates`__ folder in root of project
+	- [X] register __`templates`__ folder in project settings <br>
 
 - [X] create __`HomePageView`__
-	- [ ] extend __`ListView`__
+	- [X] extend __`ListView`__
 	- [X] give a template of __`home.html`__
-	- [ ] associate __`Post`__ model <br>
+	- [X] associate __`Post`__ model <br>
 
 - [X] create __`home.html`__ template
 	- [X] use __`Django Templating Language`__ to display each post's title <br>
@@ -34,8 +34,8 @@
 	- [X] add main html document
 	- [X] use __`Django Templating Language`__ to allow child templates to insert content <br>
 
-- [ ] update __url patterns__ for app and project
-- [ ] view home page and confirm posts showing properly
+- [X] update __url patterns__ for app and project
+- [X] view home page and confirm posts showing properly
 - [ ] add __detail__ view
 	- [ ] link __`post_detail.html`__ template
 	- [ ] associate __`Post`__ model <br>

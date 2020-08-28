@@ -62,7 +62,7 @@
 ---
 
 ### Collaborations and Attributions
-<!-- __Skyler Burger__ helped immensely when trying to import a corpus of english words when 'import' wasn't working for the cipher-breaker function. -->
+__Skyler Burger__ helped with creating a false-positive test for Django tests.
 
 <!-- __Merry Cimakasky__ helped with NN. -->
 

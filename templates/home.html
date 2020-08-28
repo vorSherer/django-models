@@ -10,7 +10,7 @@
     <h2>List of recent posts</h2>
         <ul>
         {% for post in object_list %}
-            <li>{{post.title}}</li>
+            <li><a href="{% url 'post_detail' post.id %}">{{post.title}}</a></li>
         {% endfor %}
         </ul>
 {% endblock mainh1 %}

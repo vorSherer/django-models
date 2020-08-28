@@ -19,3 +19,5 @@ class CheckPageView(TemplateView):
 class PostDetailPageView(DetailView):
     template_name = 'post_detail.html'
     model = Post
+
+

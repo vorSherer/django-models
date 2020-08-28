@@ -15,7 +15,7 @@
 	- [X] add __`body` TextField__ <br>
 
 - [X] add model to admin
-- [ ] modify __`Post`__ model have user-friendly display in admin
+- [X] modify __`Post`__ model have user-friendly display in admin
 - [X] create migrations and migrate data
 - [X] create a superuser
 - [X] Add a few posts via __Admin__ panel
@@ -47,7 +47,7 @@
 - [X] update app __urlpatterns__ to handle detail view
 	- [X] account for primary key in url <br>
 
-- [ ] add link in home page template to related post detail page <br>
+- [X] add link in home page template to related post detail page <br>
 
 ## Implementation Notes
 - The instructions are becoming more conceptual.
@@ -57,19 +57,11 @@
 
 ---
 
-<!-- My code is [here](./) <br> -->
-
----
-
 ### Collaborations and Attributions
 __Skyler Burger__ helped with creating a false-positive test for Django tests.
 
-<!-- __Merry Cimakasky__ helped with NN. -->
-
-<!-- __Lee-Roy King__ helped with NN. -->
+__Merry Cimakasky__ helped with fixing broken Django tests (Changing SimpleTestCase back to TestCase).
 
 .gitignore content courtesy of https://www.toptal.com/developers/gitignore/api/django
-
-<!-- __likegeeks.com__ helped with [understanding chr() and ord()](https://likegeeks.com/python-caesar-cipher/) -->
 
 ---
